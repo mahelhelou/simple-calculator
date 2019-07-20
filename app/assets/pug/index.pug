@@ -1,0 +1,69 @@
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(
+      name='description'
+      content='A simple calculator created by Mahmoud El Helou, it was an exercise from a Udemy course'
+    )
+    meta(
+      name='viewport'
+      content='width=device-width, initial-scale=1.0'
+    )
+    meta(
+      http-equiv="X-UA-Compatible"
+      content="ie=edge"
+    )
+    title Simple Calculator
+    link(
+    rel='stylesheet'
+    href='temp/styles/styles.css'
+    )
+
+  body
+    .calculator
+      .calculator__text-content
+        h1.calculator__title Simple Calculator
+        h3.calculator__author By: Mahmoud El Helou
+
+      .container
+        .calculator__form
+          form(
+            id='calculator-form'
+            name='calcForm'
+            )
+
+            input(
+              type='text'
+              name='display'
+              style= {
+                width: '440px',
+                height: '100%',
+                textAlign: 'center',
+                background: '#1f80c9'
+              }
+            )
+            br
+
+            input(type='button' value='0')
+            input(type='button' value='1')
+            input(type='button' value='2')
+            input(type='button' value='+' style='background-color: #cc5c11')
+            br
+
+            input(type='button' value='3')
+            input(type='button' value='4')
+            input(type='button' value='5')
+            input(type='button' value='-' style='background-color: #ba55d3')
+            br
+
+            input(type='button' value='6')
+            input(type='button' value='7')
+            input(type='button' value='8')
+            input(type='button' value='x' style='background-color: #7db1b2')
+            br
+
+            input(type='button' value='9')
+            input(type='button' value='c' style='background-color: #cc0000')
+            input(type='button' value='=')
+            input(type='button' value='/' style='background-color: green')
